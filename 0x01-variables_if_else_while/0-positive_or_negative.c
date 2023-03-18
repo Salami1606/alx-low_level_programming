@@ -15,15 +15,15 @@ int main(void)
 				scarf("%d", &n);
 	if (n > 0)
 	{
-		printf("is positive\n");
+		printf("is positive\n", n);
 	}
-	else if (n == 0)
+	else if (n < 0)
 	{
-		printf("is zero\n");
+		printf("is negative\n", n);
 	}
 	else
 	{
-		printf("is negative\n");
+		printf("is zero\n");
 	}
 	return (0);
 }
