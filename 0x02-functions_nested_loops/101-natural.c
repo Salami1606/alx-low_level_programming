@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 /**
- * main - Lists all the natural numbers below 1024 (excluded)
+ * main - Lists all the natural numbers below 1024
  * that are multiple of 3 or 5.
  *
  * Return: Always 0.
