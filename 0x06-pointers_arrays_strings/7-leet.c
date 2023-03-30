@@ -4,6 +4,7 @@
  * @n: input value
  * Return: n value
  */
+char *leet(char *n)
 {
 	int i, j;
 	char s1[] = "aAeEoOtTlL";
@@ -17,7 +18,6 @@
 			{
 				n[i] = s2[j];
 			}
-		
 		}
 	}
 	return (n);
