@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio>
+#include <stdio.h>
 /**
  * print_diagsums - Entry point
  * @a: input
@@ -17,11 +17,9 @@ void print_diagsums(int *a, int size)
 	{
 		sum1 = sum1 + a[y * size + y];
 	}
-
 	for (y = size - 1; y >= 0; y--)
 	{
 		sum2 += a[y * size + (size - y - 1)];
 	}
-
 	printf("%d, %d\n", sum1, sum2);
 }
